@@ -1,4 +1,4 @@
-const Enum = require('../common/Enum')
+const Enum = require('../../common/Enum')
 
 module.exports = {
     BLOCK: new Enum("BLOCK", 1),
@@ -7,7 +7,9 @@ module.exports = {
     VARIABLE: new Enum("VARIABLE", 4),
     IF_STMT: new Enum("IF_STMT", 5),
     WHILE_STMT: new Enum("WHILE_STMT", 6),
-    ASSIGN_STMT: new Enum("ASSIGN_STMT", 7),
-    FOR_STMT: new Enum("FOR_STMT", 8),
+    FOR_STMT: new Enum("FOR_STMT", 7),
+    ASSIGN_STMT: new Enum("ASSIGN_STMT", 8),
     FUNCTION_DECLARE_STMT: new Enum("FUNCTION_DECLARE_STMT", 9),
+    DECLARE_STMT: new Enum("DECLARE_STMT", 10),
+    SCALAR: new Enum("SCALAR", 11),
 }
