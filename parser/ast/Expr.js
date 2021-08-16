@@ -1,7 +1,7 @@
-const Factor = require("./Factor")
+const ASTNode = require("./ASTNode")
 const ASTNodeTypes = require('./ASTNodeTypes')
 
-class Expr extends Factor {
+class Expr extends ASTNode {
     constructor(parent) {
         super(parent);
     }

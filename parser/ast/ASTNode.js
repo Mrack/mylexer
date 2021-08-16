@@ -1,7 +1,7 @@
 class ASTNode {
     constructor(_parent, _type = null, _label = null) {
         this.children = []
-        this.parent = parent
+        this.parent = _parent
 
         this.lexeme = null
         this.type = _type

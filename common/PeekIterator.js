@@ -38,7 +38,7 @@ class PeekIterator {
     }
 
     next(){
-        let val = null 
+        let val = null
 
         if(this.stackPutBacks.length > 0) {
             val = this.stackPutBacks.pop()
@@ -47,7 +47,7 @@ class PeekIterator {
             if(val === undefined) {
                 const tmp = this.endToken
                 this.endToken = null
-                val = tmp 
+                val = tmp
             }
         }
 

@@ -21,3 +21,5 @@ class PeekTokenIterator extends PeekIterator {
         return token
     }
 }
+
+module.exports = PeekTokenIterator
